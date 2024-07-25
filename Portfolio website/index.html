@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/css-icon-library/1.0.0/css/icons.min.css" rel="stylesheet">  
+</head>
+<body>
+    <nav>
+        <img class="Logo" src="images.png" alt="Logo" height="50px" width="100px">
+        <ul>
+            <li><a href="#Home">HOME</a></li>
+            <li><a href="#AboutMe">ABOUT ME</a></li>
+            <li><a href="#Skills">SKILLS</a></li>
+            <li><a href="#Projects">PROJECTS</a></li>
+            <li><a href="#Contact">CONTACT ME</a></li>
+        </ul>
+    </nav>
+
+    <section id="Home">
+        <div class="container">
+            <div class="home2">
+                <h1>Hi, I am <span>Irfan</span></h1>
+                <p class="intro">A Web Developer with a passion for crafting responsive and engaging websites. I specialize in front-end technologies like HTML, CSS, and JavaScript, and I'm dedicated to creating seamless user experiences.</p>
+            </div>
+            <div class="social-links text-center mt-5">
+                <a href="https://github.com/msgmdirfan"><i class="bi bi-github" id="github"></i></a>
+                <a href="https://www.linkedin.com/in/msgmdirfan/"><i class="bi bi-linkedin"></i></a>
+                <a href="mailto:msgmdirfan@gmail.com"><i class="bi bi-envelope-fill" id="gmail"></i></a>
+                <a href="https://leetcode.com/u/msgmdirfan/"><i class="bi bi-code-square" id="leetcode"></i></a>
+            </div>
+            <div>
+                <img class="photo" src="irfans image.jpg" alt="Irfan's Photo" height="300" width="300">
+            </div>
+        </div>
+    </section>
+
+    <section id="AboutMe">
+        <h2><center>About Me</center></h2>
+        <div class="container">
+            <div class="about-content">
+                <div class="education">
+                    <h3>Education</h3>
+                    <div class="education-box">
+                        <div class="college">
+                            <h4>Karpagam College of Engineering</h4>
+                            <p><strong>Degree:</strong> Undergraduate in Computer Science</p>
+                            <p><strong>Branch:</strong> Computer Science</p>
+                        </div>
+                        <div class="school">
+                            <h4>Tan Academy School</h4>
+                            <p><strong>Education:</strong> Higher Education</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Skills">
+        <h2>Skills</h2>
+        <div class="container">
+            <div class="skills-cards">
+                <div class="card">
+                    <i class="bi bi-filetype-html" style="font-size: 3rem;"></i>
+                    <h3>HTML</h3>
+                    <p>Expert in creating semantic HTML5 structures.</p>
+                </div>
+                <div class="card">
+                    <i class="bi bi-filetype-css" style="font-size: 3rem;"></i>
+                    <h3>CSS</h3>
+                    <p>Proficient in responsive design and CSS3 animations.</p>
+                </div>
+                <div class="card">
+                    <i class="bi bi-filetype-js" style="font-size: 3rem;"></i>
+                    <h3>JavaScript</h3>
+                    <p>Experienced in building interactive web applications.</p>
+                </div>
+                <div class="card">
+                    <i class="bi bi-bootstrap" style="font-size: 3rem;"></i>
+                    <h3>Bootstrap</h3>
+                    <p>Skilled in using Bootstrap for responsive design.</p>
+                </div>
+                <div class="card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" style="width: 3rem;">
+                    <h3>Python</h3>
+                    <p>Proficient in Python for data analysis and web development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Projects">
+        <h2><center>Projects</center></h2>
+        <div class="container">
+            <div class="projects">
+                <div class="project">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio website showcasing my work and skills.</p>
+                    <a href="https://your-portfolio-link.com" class="btn btn-primary">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Food Website</h3>
+                    <p>A food website featuring recipes and cooking tips.</p>
+                    <a href="https://your-food-website-link.com" class="btn btn-primary">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Expense Tracker</h3>
+                    <p>A web application for tracking personal expenses, built with Python and Flask.</p>
+                    <a href="https://your-expense-tracker-link.com" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contact">
+        <h2 class="heading"><center>Contact Me</center></h2>
+        <div class="container">
+            <div class="contact-form">
+                <h3>Send me a message</h3>
+                <form action="https://formspree.io/f/manwqboz" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
